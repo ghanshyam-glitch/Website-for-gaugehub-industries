@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact GaugeHub Industries | Gauges in Chhatrapati Sambhajinagar</title>
+    <meta name="description" content="Contact GaugeHub Industries in Chhatrapati Sambhajinagar, Maharashtra for precision gauges, inspection tools, product enquiries and quotations.">
+    <link rel="canonical" href="https://gaugehubindustries.com/contact.html">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact GaugeHub Industries | Gauges in Chhatrapati Sambhajinagar">
+    <meta property="og:description" content="Contact GaugeHub Industries in Chhatrapati Sambhajinagar, Maharashtra for precision gauges, inspection tools, product enquiries and quotations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gaugehubindustries.com/contact.html">
+    <meta property="og:image" content="https://gaugehubindustries.com/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+                <h2>GaugeHub Industries</h2>
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+             <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="search-box">
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search products...">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <div id="searchResults" class="search-results"></div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<section class="contact-hero">
+
+    <h1>Contact Us</h1>
+
+    <p>
+        We'd love to hear from you. Contact our team for product inquiries,
+        quotations, or technical support.
+    </p>
+
+</section>
+
+<section class="contact-container">
+
+    <div class="contact-info">
+
+        <h2>Get In Touch</h2>
+
+        <div class="info-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+                <h3>Address</h3>
+                <a href="https://maps.app.goo.gl/htCYB4vpC4C3fBBV9"
+                target="_blank">Ch. Sambhajinagar, Maharashtra</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <h3>Phone</h3>
+                <a href="tel:+918329430489">+91 83294 30489</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <h3>Email</h3>
+                <a href="mailto:gaugehub.ind@gmail.com">gaugehub.ind@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+                <h3>Working Hours</h3>
+                <p>Always open.</p>
+            </div>
+        </div>
+
+    </div>
+
+<div class="contact-form">
+
+    <h2>Send Message</h2>
+
+    <form
+        id="contactForm"
+        action="https://formspree.io/f/meeydydl"
+        method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required>
+        
+        <input
+            type="number"
+            name="Contact number"
+            placeholder="Contact number"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required>
+
+        <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required>
+
+        <textarea
+            name="message"
+            placeholder="Write your message"
+            required></textarea>
+
+        <!-- Hidden Spam Protection -->
+        <input
+            type="text"
+            name="_gotcha"
+            style="display:none">
+
+        <!-- Email Subject -->
+        <input
+            type="hidden"
+            name="_subject"
+            value="New Enquiry from GaugeHub Website">
+
+        <button
+            type="submit"
+            class="contact-btn">
+
+            Send Message
+
+        </button>
+
+    </form>
+
+    <p id="formStatus"></p>
+
+</div>
+
+</section>
+
+<script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    });
+</script>
+<script src="js/search.js"></script>
+
+</body>
+
+</html>
+
+
