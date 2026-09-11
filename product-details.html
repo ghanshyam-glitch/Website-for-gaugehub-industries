@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauge Products & Specifications | GaugeHub Industries</title>
+    <meta name="description" content="View product details and specifications for precision plug, snap, ring, width and other measuring gauges from GaugeHub Industries.">
+    <link rel="canonical" href="https://gaugehubindustries.com/product-details.html">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Gauge Products & Specifications | GaugeHub Industries">
+    <meta property="og:description" content="View product details and specifications for precision plug, snap, ring, width and other measuring gauges from GaugeHub Industries.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gaugehubindustries.com/product-details.html">
+    <meta property="og:image" content="https://gaugehubindustries.com/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="GaugeHub">
+                    <h2>GaugeHub Industries</h2>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="search-box">
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search Products...">
+
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <div id="searchResults" class="search-results"></div>
+
+            </div>
+
+        </nav>
+
+</header>
+
+
+
+<!-- ================= PRODUCT LAYOUT ================= -->
+
+<section class="product-layout">
+
+<!-- ================= LEFT SIDEBAR ================= -->
+
+        <div class="product-sidebar">
+            <h2>Products</h2>
+
+            <div class="product-menu">
+                <button class="menu-item active" data-product="plug">
+                <i class="fa-solid fa-ruler"></i>
+                Plug Gauges
+                </button>
+
+                <button class="menu-item" data-product="snap">
+                <i class="fa-solid fa-compass-drafting"></i>
+                Snap Gauges
+                </button>
+
+                <button class="menu-item" data-product="ring">
+                <i class="fa-solid fa-circle-dot"></i>
+                Ring Gauges
+                </button>
+
+                <button class="menu-item" data-product="width">
+                <i class="fa-solid fa-ruler-combined"></i>
+                Width Gauges
+                </button>
+
+                <button class="menu-item" data-product="special">
+                <i class="fa-solid fa-gears"></i>
+                Measuring Pin Set
+                </button>
+
+                <button class="menu-item" data-product="widthmaster">
+                    <i class="fa-solid fa-ruler-horizontal"></i>
+                    Width (Slip) Master
+                </button>
+
+                <button class="menu-item" data-product="specialgauge">
+                    <i class="fa-solid fa-gears"></i>
+                    Special Type Gauges
+                </button>
+
+                <button class="menu-item" data-product="mandrel">
+                    <i class="fa-solid fa-wrench"></i>
+                    Taper & Rolling Mandrels
+                </button>
+
+                <button class="menu-item" data-product="circlip">
+                    <i class="fa-solid fa-circle-notch"></i>
+                    Circlip Distance Groove Check Gauges
+                </button>
+
+                <button class="menu-item" data-product="functional">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    Functional / Relation Gauges
+                </button>
+
+            </div>
+
+        </div>
+
+<!-- ================= RIGHT CONTENT ================= -->
+
+<div class="product-content">
+
+    <div class="product-header">
+        <h1>Plug Gauges</h1>
+        <p>High precision carbide plug gauges designed for industrial inspection,
+        quality control and accurate dimensional measurement.</p>
+    </div>
+
+    <!-- ================= PRODUCT TYPES ================= -->
+    <h2 class="section-heading">Available Types</h2>
+
+    <div class="type-grid">
+
+        <div class="type-card">
+            <img src="images/CarbidePlugGaugestrans.png" alt="">
+            <h3>Plain Plug Gaugeh</h3>
+        </div>
+
+        <div class="type-card">
+            <img src="images/CarbidePlugGaugestrans.png" alt="">
+            <h3>Thread Plug Gauge</h3>
+        </div>
+
+        <div class="type-card">
+            <img src="images/CarbidePlugGaugestrans.png" alt="">
+            <h3>Taper Plug Gauge</h3>
+        </div>
+
+        <div class="type-card">
+            <img src="images/CarbidePlugGaugestrans.png" alt="">
+            <h3>Master Plug Gauge</h3>
+        </div>
+
+    </div>
+
+    <!-- PRODUCT POPUP DETAILS -->
+
+    <div class="selected-product" id="selectedProduct">
+
+
+        <div class="selected-info">
+
+            <h2 id="productName">Plain Plug Gauge</h2>
+
+            <h3 class="price-text">
+                Price :
+                <span id="productPrice">On Request</span>
+            </h3>
+
+            <h3 class="price-text">
+                Range :
+                <span id="productRange">5 mm - 100 mm</span>
+            </h3>
+
+            <div class="price-image">
+
+                <img
+                    id="priceImage"
+                    src="images/steelplug-price.webp"
+                    alt="Price List">
+
+            </div>
+
+            <div class="product-buttons">
+
+                <a href="contact.html" class="primary-btn">
+                    Send Enquiry via
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://wa.me/918329430489?text=Hello%20GaugeHub%20Industries,%0A%0AI%20am%20interested%20in%20your%20gauges.%20Please%20share%20the%20price,%20catalog,%20and%20product%20details.%0A%0AThank%20you." class="primary-btn whatsapp-btn" target="_blank">
+                    Send Enquiry via
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="tel:+918329430489" class="secondary-btn">
+                    Call Me
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- =================  ================= -->
+
+<footer class="footer">
+    <p>© 2026 GaugeHub Industries. All Rights Reserved.</p>
+</footer>
+
+<div id="imageModal" class="image-modal">
+    <span class="close-image">&times;</span>
+    <img id="modalImage" class="modal-content">
+</div>
+
+
+<script src="js/product-details.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+
+</html>
